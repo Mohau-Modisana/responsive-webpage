@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Webpage-grid</title>
+    <link rel="stylesheet" href="simple-grid.css">
+
+<style>
+
+.header{
+    width: 100%;
+    display: block;
+    height: 80px;
+    background-color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 10%;
+
+}
+
+ .nav_links{
+     list-style: none;
+ }
+
+ .nav_links li{
+     display: inline-block;
+     padding: 0px 20px;
+ }
+
+ .nav_links li a{
+     transition: all 0.3s ease 0s;
+ }
+
+ .nav_links li a:hover{
+     color:rgb(247, 178, 58);
+ }
+
+.box{
+    border: 2px; 
+    padding:1em;
+    margin: 1em; 
+    border-radius: 0.5em;
+}
+
+body {
+    background-color: blanchedalmond; 
+     font-style: italic; 
+}
+
+.writing{
+    padding: 1em;
+}
+
+.table, th, td {
+    border: 1px solid black;
+  }
+
+.mountain{
+    background-image: url(table-mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pic{
+    border-radius: 50%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.rd{
+    border: 2px ; 
+    border: solid;
+    border-color: rgb(238, 175, 183);
+    padding:1em;
+    margin: 1em; 
+    border-radius: 1em;
+}
+
+.rd :hover{
+    color: black;
+    background-color: snow;
+}
+
+</style>
+
+</head>
+<body>
+    
+<header class="header">
+    <nav>
+        <ul class="nav_links">
+            <li><a href="index.html"><h3>Home</h3></a></li>
+            <li><a href="my-webpage.html"><h3>My-Webpage</h3></a></li>
+            <li><a href="my-webpage-grid.html"><h3>My-Webpage-grid</h3></a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="All row center mountain">
+        <div class="col-6">
+            <h1>Mohau Modisana</h1>
+        </div>
+    
+        <div class="col-5">
+            <img src="2.jpg" alt="">
+        </div>
+    </div>
+    
+    <div><h2>Which City?</h2></div>
+    <div class="All row rd">
+            
+        <div class="col-4">
+            <img src="Queenstown,New Zealand.jpg"  width="450em" alt="Queenstown, New Zealand">
+        </div>
+        <div class="col-7 writing">
+            Queenstown, New Zealand, sits on the shores of the South Island’s Lake Wakatipu, set against the dramatic Southern Alps. 
+            Known as the adventure capital of the world, Queenstown is home to a range of adventures, 
+            from the world's first and most famous bungy jumps - the Kawarau Bridge Bungy(opens in new window),
+            to jet boat thrills through the rugged beauty and unspoilt grandeur of the white-water rapids of the Shotover River.
+        </div>
+    
+    </div>
+    
+    <div>
+        <div>
+            <h1>Foreign Language</h1>
+        </div>
+        <div class="col-11 center rd">
+            <table style="width:100%">
+            <tr>
+                <th>Spanish Phrases</th>
+                <th>Pronunciation</th>
+                <th>English Translations</th>
+              </tr>
+              <tr>
+                <td>Hola</td>
+                <td>ow-luh</td>
+                <td>Hello</td>
+              </tr>
+              <tr>
+                <td>Gracias</td>
+                <td>gra-see-uhs</td>
+                <td>Thank you</td>
+              </tr>
+              <tr>
+                <td>Yo no comprendo</td>
+                <td>yoh noh kohm-prehn-doh</td>
+                <td>I do not understand</td>
+              </tr>
+              <tr>
+                <td>Estoy perdido</td>
+                <td>Ehs-toy pehr-dee-doh</td>
+                <td>I am lost</td>
+              </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div>
+        <div>
+            <h1>Historial Places in Johannesburg</h1>
+        </div>
+        <div class="row rd">
+            <div class="col-4">
+                <div class="writing">
+                    <h2>Apartheid Museum</h2>
+                    It is an emotional journey designed to encourage visitors to empower themselves with knowledge to prevent such horrors from happening again. 
+                    The museum gardens offer visitors a space for reflection. 
+                    The landscape is South African, and conveys the harsh beauty of our country.
+                </div>
+                <div class="pic">
+                    <img src="Apartheid.jpg" width="380em"> 
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="writing">
+                    <h2>Museum Africa</h2>
+                    Museum Africa is Johannesburg’s social and cultural history museum. It is located in what was once the city’s fruit and vegetable market, a large and impressive heritage building that occupies an entire city block. The museum has a large collection of artefacts, of which only a small number are usually on display at any one time. The large museum space is also used to hold regular temporary exhibitions.
+                </div>
+                <div class="pic">
+                    <img src="MuseumAfrica.jpg" width="360em"> 
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="writing">
+                    <h2>Constitution Hill Human Rights Precinct</h2>
+    
+                    There is perhaps no other site of incarceration in South Africa that imprisoned the sheer number of world-renowned men and women as those held within the walls of Constitution Hill’s Old Fort, Women's Jail and Number Four. Nelson Mandela. Mahatma Gandhi. Joe Slovo. Albertina Sisulu. Winnie Madikizela-Mandela. Fatima Meer. They all served time here, but the precinct also confined tens of thousands of ordinary people during its 100-year history. They were men and women of all races, creeds, ages and political agendas; children too, the everyman and the elite. In this way, the history of every South African lives here
+                </div>
+                <div class="pic">
+                    <img src="Constitutional.jpg" width="380em"> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="12 center">
+            @Responsive Webpage using simple-grid
+    </div>
+</body>
+</html>
