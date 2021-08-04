@@ -111,6 +111,12 @@ header{
     }
 }
 
+.bd{
+    border: 2px;
+    border: solid;
+    border-color: black;
+}
+
 .center {
     text-align: center;
     margin-left: auto;
