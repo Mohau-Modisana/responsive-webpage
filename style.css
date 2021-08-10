@@ -78,11 +78,11 @@ header{
 }
 
 .vid{
-    background-image: url(vid.gif);
+    background-image: url(vid.gif) ;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size:cover;
 }
 
 .hv :hover{
